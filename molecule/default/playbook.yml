@@ -3,4 +3,4 @@
   hosts: all
   roles:
     - role: andrewrothstein.kubectl
-    - role: ansible-role-kubectl-krew
+    - role: cnygaard.kubectl_krew
