@@ -13,7 +13,7 @@
   unarchive:
     src: /tmp/krew.tar.gz
     dest: /tmp/krew
-    remote_src: True
+    remote_src: true
 
 - name: Set fact Amd64 fact on x86_64 platforms
   set_fact:
