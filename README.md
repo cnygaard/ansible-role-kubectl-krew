@@ -3,6 +3,8 @@ Role Name
 
 Install Kubectl plugin Krew in /usr/local/bin/
 
+[![Build Status](https://travis-ci.org/cnygaard/ansible-role-kubectl-krew.svg?branch=master)](https://travis-ci.org/cnygaard/ansible-role-kubectl-krew)
+
 Requirements
 ------------
 

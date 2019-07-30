@@ -9,7 +9,7 @@
     path: /tmp/krew
     state: directory
 
-- name: Unarchive krew2
+- name: Unarchive krew
   unarchive:
     src: /tmp/krew.tar.gz
     dest: /tmp/krew
