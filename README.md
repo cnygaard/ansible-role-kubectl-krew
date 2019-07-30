@@ -28,11 +28,13 @@ Example Playbook
 
 Example use of Kubectl Krew role
 
+```
 - hosts: localhost
 
   roles:
     - role: andrewrothstein.kubectl
-    - role: kubectl_krew
+    - role: cnygaard.kubectl_krew
+```
 
 License
 -------
