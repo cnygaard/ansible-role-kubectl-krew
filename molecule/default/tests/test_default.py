@@ -12,3 +12,9 @@ def test_hosts_file(host):
     assert f.exists
     assert f.user == 'root'
     assert f.group == 'root'
+
+
+def test_kubectl_krew(host):
+    cmd = host.run("/usr/local/bin/kubectl krew version")
+
+    assert cmd.rc

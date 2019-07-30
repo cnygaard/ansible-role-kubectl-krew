@@ -10,6 +10,10 @@ platforms:
     image: centos:7
   - name: ubuntu1804
     image: ubuntu:18.04
+  - name: debian10
+    image: debian:10
+  - name: fedora30
+    image: fedora:30
 provisioner:
   name: ansible
   lint:
