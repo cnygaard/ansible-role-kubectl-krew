@@ -9,10 +9,11 @@
     path: /tmp/krew
     state: directory
 
-- name: Unarchive krew
+- name: Unarchive krew2
   unarchive:
     src: /tmp/krew.tar.gz
     dest: /tmp/krew
+    remote_src: True
 
 - name: Set fact Amd64 fact on x86_64 platforms
   set_fact:
@@ -29,3 +30,4 @@
     src: "/tmp/krew/krew-{{ ansible_system|lower }}_{{ linux_platform }}"
     dest: /usr/local/bin/kubectl-krew
     mode: 0755
+    remote_src: true
