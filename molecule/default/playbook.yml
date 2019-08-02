@@ -3,4 +3,5 @@
   hosts: all
   roles:
     - role: andrewrothstein.kubectl
+    - role: robertdebock.git
     - role: cnygaard.kubectl_krew

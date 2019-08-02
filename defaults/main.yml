@@ -2,3 +2,6 @@
 # defaults file for kubectl_krew
 
 krew_version: "v0.2.1"
+
+krew_plugins:
+  - "ingress-nginx"

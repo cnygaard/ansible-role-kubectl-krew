@@ -1,3 +1,4 @@
 ---
 - src: andrewrothstein.kubectl
+- src: robertdebock.git
 - src: cnygaard.kubectl_krew

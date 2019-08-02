@@ -1,0 +1,5 @@
+---
+- name: Install Krew plugins
+  shell: "kubectl krew install {{ item }}"
+  with_items: "{{ krew_plugins }}"
+  when: krew_plugins is defined
